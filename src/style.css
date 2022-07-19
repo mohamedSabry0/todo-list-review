@@ -1,0 +1,57 @@
+.main {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+}
+
+.list-box {
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  box-shadow: 2px 2px 3px 2px #ccc;
+  margin: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.list-box input {
+  border: none;
+  border-bottom: 1px solid #aaa;
+  padding: 0.5rem;
+}
+
+.list-box > * {
+  border-bottom: solid 1px #aaa;
+}
+
+.list-box h3 {
+  margin: 0;
+}
+
+.clear-btn {
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  background-color: #f6f6f6;
+}
+
+.list {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  display: flex;
+  border-bottom: 1px solid #aaa;
+  padding: 0.5rem;
+}
+
+.remove {
+  width: 32px;
+}
