@@ -24,7 +24,7 @@ class EditRemoveHandler {
     const editField = document.createElement('input');
     const removeBtn = document.createElement('img');
 
-    removeBtn.className = 'remove';
+    // removeBtn.className = 'remove';
     removeBtn.src = deleteIcon;
     const oldDesc = this.list.taskList[index].description;
     editField.value = oldDesc;

@@ -53,5 +53,8 @@
 }
 
 .remove {
-  width: 32px;
+  background: no-repeat center/contain url('./images/icons8-delete-64.png');
+  width: 2rem;
+  height: 3rem;
+  margin-left: auto;
 }
